@@ -24,10 +24,11 @@ for a,b,target in [('foreground','background',4.5),('foreground','selection',4.5
     assert ratio >= target, (a,b,ratio)
     print(f'{a}/{b}: {ratio:.2f}:1 (target {target}:1)')
 images=sorted((root/'backgrounds').glob('*.png'))
-assert len(images)==3
+assert len(images)==8
 for f in images:
     with Image.open(f) as im:
         im.load()
+        if 'icon-' in f.name: assert im.size == (3840,2160)
         assert im.width >= 1600 and abs(im.width/im.height-16/9)<.01
         print(f'{f.name}: {im.width}x{im.height}, {f.stat().st_size:,} bytes; decoded OK')
 print('PASS: local palette, contrast, package and image checks')

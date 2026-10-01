@@ -1,57 +1,51 @@
 # e/acc
 
-Carbon black. Reactor orange. Build the future.
+<a href="https://github.com/tcballard/omarchy-badges"><img src="https://raw.githubusercontent.com/tcballard/omarchy-badges/75975e5b5bf75e7ede3764bcd2950046f7abfe2c/badges/v1/omarchy-theme.svg" alt="Built for Omarchy: Theme" height="20"></a>
 
-A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite surfaces and four wallpapers: Signal, Velocity, Icon Carbon and Hyperdrive.
+![Signal wallpaper](backgrounds/00-signal.png)
 
-![Signal wallpaper — artwork, not a desktop screenshot](backgrounds/00-signal.png)
+*Wallpaper artwork. A real desktop screenshot is pending.*
 
-## Wallpapers
+Carbon black, reactor orange and warm white. A dark Omarchy theme with readable terminal colours and four wallpapers, from a quiet wordmark to a jump into hyperspace.
 
-- **Hyperdrive:** the orange icon and e/acc wordmark surrounded by blue-white hyperspace star trails.
+## Install
 
-- **Velocity:** light trails accelerating towards the horizon.
-- **Signal:** restrained e/acc typography on carbon black.
-- **Icon Carbon:** Will DePue’s original e/acc symbol in orange on carbon black, rendered directly from vector at 3840×2160.
-
-The orange icon variant and Kardashev experiments are retained in `extras/`, outside the default wallpaper collection.
-
-Icon Carbon is a native 3840×2160 vector render. Signal, Velocity and Hyperdrive are 1672×941, without upscaling; see docs/validation.md for exact dimensions. Signal is the lead wallpaper and sorts first. Use Omarchy's background picker to select it if your desktop retains another background.
-
-## Try the preview
-
-Extract the download, then run these commands from inside the extracted `omarchy-eacc-theme` directory on your Omarchy desktop:
-
-```bash
-mkdir -p "$HOME/.config/omarchy/themes"
-if [ -e "$HOME/.config/omarchy/themes/eacc" ]; then
-  echo "An eacc theme already exists. Back it up or rename it before installing."
-else
-  cp -R . "$HOME/.config/omarchy/themes/eacc"
-  omarchy theme set eacc
-fi
-```
-
-This applies the theme immediately. No build tools, extra fonts or packages are required. To revert, select your previous theme in the Omarchy theme picker.
-
-After the implementation PR is merged, install with:
+Once the implementation PR is merged:
 
 ```bash
 omarchy theme install https://github.com/tcballard/omarchy-theme-e-acc
 ```
 
-Until then, use the local preview instructions above.
+The derived install name is `theme-e-acc`. Installation applies the theme immediately. No compilation or extra fonts are required.
 
-## Design
+To test the current PR before merge:
 
-`colors.toml` defines the semantic palette and normal/bright terminal colours. Omarchy's own templates generate application configurations, including shell surfaces, terminals and editors. Native spacing, fonts and behaviour are retained. No shell overrides or install hooks are supplied.
+```bash
+git clone --branch feat/eacc-theme --single-branch https://github.com/tcballard/omarchy-theme-e-acc "$HOME/.config/omarchy/themes/theme-e-acc"
+omarchy theme set theme-e-acc
+```
 
-Orange identifies focus and active controls. Mint, amber and coral retain distinct success, warning and error roles. Selection uses burnt orange with bright text. The palette supplies explicit background and foreground ramps.
+If the destination already exists, stop and preserve your existing copy before updating it. To revert, select your previous theme in Omarchy's theme picker.
 
-## Status
+## Wallpapers
 
-Version **0.0.1-preview**. Palette syntax, contrast and image checks are recorded in [validation](docs/validation.md). Live Omarchy testing, Git-installed staging and a real desktop screenshot remain pending. Wallpaper artwork is not a fabricated desktop preview.
+| Wallpaper | Character | Resolution |
+| --- | --- | --- |
+| Signal | Orange e/acc wordmark on carbon black; lead wallpaper | 1672×941 |
+| Velocity | Orange light trails towards the horizon | 1672×941 |
+| Icon Carbon | Original e/acc symbol, rendered directly from vector | 3840×2160 |
+| Hyperdrive | Combined icon and wordmark with blue-white star trails | 1672×941 |
 
-## Licence and artwork
+Use Omarchy's background picker to choose your wallpaper. Earlier experiments and the clean combined artwork are retained in `extras/`; they are not part of the installed wallpaper collection.
 
-Theme configuration and documentation: MIT. Wallpaper generation provenance and media terms: [CREDITS.md](CREDITS.md).
+## Compatibility
+
+Designed for Omarchy Quattro's semantic `colors.toml` templates. Installed Omarchy version tested: **pending**. Local palette, contrast and image checks pass; live desktop and Git-installed staging verification remain outstanding. See [validation](docs/validation.md).
+
+The theme preserves native fonts, spacing and behaviour. It includes no install hooks or application configuration overrides.
+
+## Credits
+
+Theme configuration and documentation: Tom Ballard, MIT.
+
+The original e/acc icon is by Will DePue, released under [CC0](https://commons.wikimedia.org/wiki/File:Effective_accelerationism_icon.svg). Signal, Velocity and Hyperdrive were generated with OpenAI's image tool. See [artwork provenance and terms](CREDITS.md).

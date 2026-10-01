@@ -56,3 +56,20 @@ muted/background: 4.90:1 (target 4.5:1)
 PASS: local palette, contrast, package and image checks
 NOT RUN: Rust helper (cargo unavailable), live Omarchy, Git staging, registry validation
 ```
+
+## Selected default collection
+
+Signal leads; Reactor, Velocity and Icon Carbon are included. Other artwork is in extras/.
+
+```text
+foreground/background: 16.45:1 (target 4.5:1)
+foreground/selection: 9.23:1 (target 4.5:1)
+accent/background: 6.66:1 (target 3:1)
+muted/background: 4.90:1 (target 4.5:1)
+00-signal.png: 1672x941, 846,095 bytes; decoded OK
+01-reactor.png: 1672x941, 2,179,186 bytes; decoded OK
+02-velocity.png: 1672x941, 1,315,366 bytes; decoded OK
+04-icon-carbon.png: 3840x2160, 43,023 bytes; decoded OK
+PASS: local palette, contrast, package and image checks
+NOT RUN: Rust helper (cargo unavailable), live Omarchy, Git staging, registry validation
+```

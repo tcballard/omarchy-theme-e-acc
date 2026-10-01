@@ -2,19 +2,20 @@
 
 Carbon black. Reactor orange. Build the future.
 
-A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite surfaces and eight wallpapers: six AI-generated scenes and two exact-vector icon designs.
+A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite surfaces and four wallpapers: Signal, Reactor, Velocity and Icon Carbon.
 
-![Reactor wallpaper — artwork, not a desktop screenshot](backgrounds/01-reactor.png)
+![Signal wallpaper — artwork, not a desktop screenshot](backgrounds/00-signal.png)
 
 ## Wallpapers
 
 - **Reactor:** an orange fusion core in a dark industrial chamber.
 - **Velocity:** light trails accelerating towards the horizon.
 - **Signal:** restrained e/acc typography on carbon black.
-- **Icon Carbon / Icon Orange:** Will DePue’s original e/acc symbol, rendered directly from vector at 3840×2160.
-- **Planetary / Stellar / Galactic:** speculative Kardashev Type I, II and III energy civilisations.
+- **Icon Carbon:** Will DePue’s original e/acc symbol in orange on carbon black, rendered directly from vector at 3840×2160.
 
-The two icon wallpapers are native 3840×2160 vector renders. The six generated wallpapers are 1672×941, without upscaling; see docs/validation.md for exact dimensions. Reactor is sorted first. Use Omarchy's background picker to select it if your desktop retains another background.
+The orange icon variant and Kardashev experiments are retained in `extras/`, outside the default wallpaper collection.
+
+Icon Carbon is a native 3840×2160 vector render. Signal, Reactor and Velocity are 1672×941, without upscaling; see docs/validation.md for exact dimensions. Signal is the lead wallpaper and sorts first. Use Omarchy's background picker to select it if your desktop retains another background.
 
 ## Try the preview
 

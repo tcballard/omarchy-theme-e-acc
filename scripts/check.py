@@ -24,7 +24,7 @@ for a,b,target in [('foreground','background',4.5),('foreground','selection',4.5
     assert ratio >= target, (a,b,ratio)
     print(f'{a}/{b}: {ratio:.2f}:1 (target {target}:1)')
 images=sorted((root/'backgrounds').glob('*.png'))
-assert len(images)==8
+assert len(images)==4
 for f in images:
     with Image.open(f) as im:
         im.load()

@@ -35,3 +35,5 @@ All three generated outputs were 1672×941. Only the vector icon pair is native 
 Kardashev reference: https://ntrs.nasa.gov/api/citations/20100003003/downloads/20100003003.pdf
 
 Signal + Icon: centred horizontal orange lockup using original icon geometry and outlined e/acc sans-serif wordmark on #101010. Native vector render at 3840×2160.
+
+Hyperdrive prompt: preserve orange combined icon and e/acc lockup; add classic Star Wars jump-to-hyperspace blue-white radial streaks, a dark quiet centre and strong forward acceleration. No cockpit, characters, extra words or film title. Requested 3840×2160; received 1672×941.

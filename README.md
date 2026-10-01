@@ -2,13 +2,13 @@
 
 Carbon black. Reactor orange. Build the future.
 
-A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite surfaces and four wallpapers: Signal, Velocity, Icon Carbon and Signal + Icon.
+A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite surfaces and four wallpapers: Signal, Velocity, Icon Carbon and Hyperdrive.
 
 ![Signal wallpaper — artwork, not a desktop screenshot](backgrounds/00-signal.png)
 
 ## Wallpapers
 
-- **Signal + Icon:** the original orange icon paired with the e/acc wordmark on carbon black.
+- **Hyperdrive:** the orange icon and e/acc wordmark surrounded by blue-white hyperspace star trails.
 
 - **Velocity:** light trails accelerating towards the horizon.
 - **Signal:** restrained e/acc typography on carbon black.
@@ -16,7 +16,7 @@ A dark, palette-driven theme for Omarchy Quattro, with warm white text, graphite
 
 The orange icon variant and Kardashev experiments are retained in `extras/`, outside the default wallpaper collection.
 
-Icon Carbon and Signal + Icon are native 3840×2160 vector renders. Signal and Velocity are 1672×941, without upscaling; see docs/validation.md for exact dimensions. Signal is the lead wallpaper and sorts first. Use Omarchy's background picker to select it if your desktop retains another background.
+Icon Carbon is a native 3840×2160 vector render. Signal, Velocity and Hyperdrive are 1672×941, without upscaling; see docs/validation.md for exact dimensions. Signal is the lead wallpaper and sorts first. Use Omarchy's background picker to select it if your desktop retains another background.
 
 ## Try the preview
 

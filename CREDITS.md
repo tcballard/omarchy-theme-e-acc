@@ -19,3 +19,5 @@ assets/eacc-icon.svg is the downloaded original. Icon Carbon and Icon Orange rec
 Planetary, Stellar and Galactic were generated with the original icon as a visual reference using the built-in image generator. Their small emblems are generated interpretations, not exact vector overlays. These are speculative artworks inspired by planetary, stellar and galactic energy use, not scientifically scaled diagrams. Generated-media terms above also apply to these images.
 
 Signal + Icon uses the original icon paths alongside an outlined sans-serif e/acc wordmark. Created directly as vector artwork and rendered at 3840×2160; no raster upscaling. Reactor has been removed from the collection.
+
+Hyperdrive: generated with OpenAI’s built-in image tool, using Signal + Icon as the edit reference. Blue-white radial star trails evoke classic cinematic hyperspace. No film still was used. Output is 1672×941. The clean combined version is retained in extras/05-signal-icon.png.

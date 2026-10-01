@@ -33,3 +33,5 @@ Galactic prompt: tilted spiral galaxy with warm orange engineered stellar system
 All three generated outputs were 1672×941. Only the vector icon pair is native 4K.
 
 Kardashev reference: https://ntrs.nasa.gov/api/citations/20100003003/downloads/20100003003.pdf
+
+Signal + Icon: centred horizontal orange lockup using original icon geometry and outlined e/acc sans-serif wordmark on #101010. Native vector render at 3840×2160.

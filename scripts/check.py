@@ -28,7 +28,7 @@ assert len(images)==4
 for f in images:
     with Image.open(f) as im:
         im.load()
-        if 'icon-' in f.name: assert im.size == (3840,2160)
+        if 'icon' in f.name: assert im.size == (3840,2160)
         assert im.width >= 1600 and abs(im.width/im.height-16/9)<.01
         print(f'{f.name}: {im.width}x{im.height}, {f.stat().st_size:,} bytes; decoded OK')
 print('PASS: local palette, contrast, package and image checks')

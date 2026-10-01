@@ -73,3 +73,20 @@ muted/background: 4.90:1 (target 4.5:1)
 PASS: local palette, contrast, package and image checks
 NOT RUN: Rust helper (cargo unavailable), live Omarchy, Git staging, registry validation
 ```
+
+## Final four-wallpaper selection
+
+Reactor removed; Signal + Icon added.
+
+```text
+foreground/background: 16.45:1 (target 4.5:1)
+foreground/selection: 9.23:1 (target 4.5:1)
+accent/background: 6.66:1 (target 3:1)
+muted/background: 4.90:1 (target 4.5:1)
+00-signal.png: 1672x941, 846,095 bytes; decoded OK
+02-velocity.png: 1672x941, 1,315,366 bytes; decoded OK
+04-icon-carbon.png: 3840x2160, 43,023 bytes; decoded OK
+05-signal-icon.png: 3840x2160, 62,807 bytes; decoded OK
+PASS: local palette, contrast, package and image checks
+NOT RUN: Rust helper (cargo unavailable), live Omarchy, Git staging, registry validation
+```

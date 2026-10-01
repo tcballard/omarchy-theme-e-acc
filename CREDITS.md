@@ -2,7 +2,6 @@
 
 The initial three wallpapers were generated specifically for Tom Ballard's e/acc theme using OpenAI's built-in image-generation tool on 1 October 2026. No third-party reference artwork was supplied. They depict fictional artwork, not a real reactor or running desktop.
 
-- backgrounds/01-reactor.png — Reactor; generated industrial fusion chamber.
 - backgrounds/02-velocity.png — Velocity; generated abstract orange light trails.
 - backgrounds/00-signal.png — Signal; generated minimalist typography.
 
@@ -18,3 +17,5 @@ Licence: https://creativecommons.org/publicdomain/zero/1.0/
 assets/eacc-icon.svg is the downloaded original. Icon Carbon and Icon Orange recolour and position the original paths on a 3840×2160 canvas, rendered directly using Inkscape. The paths are preserved; no raster upscaling is used.
 
 Planetary, Stellar and Galactic were generated with the original icon as a visual reference using the built-in image generator. Their small emblems are generated interpretations, not exact vector overlays. These are speculative artworks inspired by planetary, stellar and galactic energy use, not scientifically scaled diagrams. Generated-media terms above also apply to these images.
+
+Signal + Icon uses the original icon paths alongside an outlined sans-serif e/acc wordmark. Created directly as vector artwork and rendered at 3840×2160; no raster upscaling. Reactor has been removed from the collection.
